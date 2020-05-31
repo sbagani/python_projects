@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head %}
+   <title>Home </title>
+{% endblock %}
+
+
+
+{% block body %}
+   <h1>Home Page</h1>
+   <br>
+   <main role="main">
+    <div class="jumbotron">
+      <div class="col-sm-8 mx-auto">
+        <h1>Welcome!</h1>
+        <p>Welcome to the Clever Programmer Blog!</p>
+        <p>Check my github <a href="https://www.github.com/sbagani">Github</a></p>
+        <p>
+          <a class="btn btn-primary" href="/posts" role="button">Go to Blog Posts &raquo;</a>
+        </p>
+      </div>
+    </div>
+  </main>
+  <br>
+{% endblock %}
